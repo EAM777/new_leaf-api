@@ -20,8 +20,18 @@ let generatedAccessToken = (req, res, next) => {
 let respond = (req, res) => {
   res.status(200).json({
     user: req.user.username,
+    userId: req.user.id,
     token: req.token
   });
+}
+
+let userInfo = (req, res) => {
+  res.status(200).json({
+  //  userId: req.user.id,
+  //  user: req.user.username,
+    issue: req.user.iat,
+    expire: req.user.exp
+  })
 }
 
 module.exports = {

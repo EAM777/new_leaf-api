@@ -23,7 +23,7 @@ app.use(bodyParser.json({
 app.use(passport.initialize());
 let Account = require('./model/account');
 passport.use(new LocalStrategy({
-  usernameField: 'email',
+  usernameField: 'username',
   passwordField: 'password'
 },
   Account.authenticate()
@@ -33,10 +33,11 @@ passport.deserializeUser(Account.deserializeUser());
 
 
 // api routes v1
-app.use(`/v1`, routes);
+app.use(`/api/v1`, routes);
 
 app.server.listen(config.port);
 
 console.log(`Starting on port ${app.server.address().port}`);
+console.log("ENTER THE SPACE ZONE!")
 
 export default app;

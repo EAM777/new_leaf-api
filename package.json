@@ -1,7 +1,7 @@
 {
-  "name": "foodtruck-api",
+  "name": "newLeafShield-Server",
   "version": "1.0.0",
-  "description": "FoodTruck API for Devslopes RESTful API Course",
+  "description": "LeafShield API for LeafShield Client",
   "main": "dist",
   "scripts": {
     "dev": "NODE_ENV=development nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",

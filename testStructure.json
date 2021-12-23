@@ -1,0 +1,104 @@
+[{
+
+	"_id": "2lk234j2j4j2j4j2jl",
+	"entity": "The Cure Company",
+
+	"facility": [{
+		"_id": "ij1223jjj13jjj3j3jjj",
+		"facilityName": "Cultivator Name",
+		"maintainanceLog": [{
+			"_id": "sd9sd9fsd9fs9dfs9df",
+			"location": "Room 1",
+			"title": "",
+			"details": ""
+		}],
+		"nursery": {
+			"moms": [{
+				"_id": "234234lj234ljk234lj23lj4",
+				"strainName": "Gelato",
+				"age": "Baby"
+			}],
+			"cuts": [{
+				"strainName": "Gelato",
+				"dateCut": "12/12/12",
+				"numberOfCuts": 399,
+				"transplant": true
+			}]
+		},
+		"reports": [{
+			"_id": "f2f4f42f2fg2fd2d3d",
+			"date": "12/12/12",
+			"nurseReports": {
+				"_id": "jwe9f9wef9ef",
+				"dataString": "",
+				"notes": ""
+			},
+			"vegReports": {
+				"_id": "jwe9f9wsdfsef9ef",
+				"dataString": "",
+				"notes": ""
+			},
+			"flwrRooms": {
+				"_id": "jwe9f9sdfwef9ef",
+				"dataString": "",
+				"notes": ""
+			},
+			"dryRooms": {
+				"_id": "23h4j23j42j3423j42j34j234",
+				"dataString": "",
+				"notes": ""
+			}
+
+		}],
+
+		"flowerRooms": [{
+			"_id": "234j234j23jj3j3jjjijiii",
+			"roomNumber": 0,
+			"farms": [{
+				"_id": "1234j3j1j414j14jj14",
+				"farm": {
+					"farmName": "CCC Room 0 12/12/12",
+					"vegDate": "12/12/12",
+					"loadDate": "12/15/12",
+					"flipDate": "12/12/12",
+					"harvestDate": "12/12/12",
+					"dryRoomLoc": 1,
+					"vegStart": true,
+					"transplant": true,
+					"flip": true,
+					"harvested": true,
+					"dry": true,
+					"sentToTrim": true,
+					"trimLoc": "GGQM",
+					"floorWeight": 45.4,
+					"mixedWeight": 45.4,
+					"sanitized": true,
+					"complete": true,
+
+					"strains": [{
+						"_id": "23j23j42j34j23j4jjj1234j23j42j",
+						"strainName": "Sweet Thang",
+						"cloneCount": 550,
+						"totalWetWeight": 1556.26,
+						"totalDryWeight": 2464.26,
+						"finalTrimWeight": 543.45,
+						"cloneData": [{
+							"_id": "2j232j234j2j42j42j4j24j24j2j",
+							"growFlowId": "1A40602000035EE000035903",
+							"cloneWeight": 1.53
+						}]
+					}],
+					"taskList": [{
+						"_id": "23h423h423j423j42jk23j423j4",
+						"title": "title",
+						"details": "description of work",
+						"deadline": "12/12/12",
+						"completedOn": "12/12/12",
+						"completedBy": "RnD Employee Data base for ID system qr scan system",
+						"status": true
+					}]
+				}
+			}]
+		}]
+	}]
+}]

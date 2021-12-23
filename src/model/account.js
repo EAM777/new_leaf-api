@@ -1,16 +1,24 @@
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 import passportLocalMongoose from 'passport-local-mongoose';
+import FlwrRooms from '../controller/facilityControl/flwrControl/flowerRooms';
 
-let accountSchema = new Schema({
-   email: {
-     type: String
-   },
-   password: {
-     type: String
-
-   }
+let AccountSchema = new Schema({
+  username: {
+    type: String
+  },
+  password: {
+    type: String
+  },
+  facilityName: {
+    type: String,
+  },
+  flowerRooms: [{
+    type: Schema.Types.ObjectId,
+    ref: 'FlwrRooms',
+    required: true
+  }]
 });
 
-accountSchema.plugin(passportLocalMongoose);
-module.exports = mongoose.model('Account', accountSchema);
+AccountSchema.plugin(passportLocalMongoose);
+module.exports = mongoose.model('Account', AccountSchema);
